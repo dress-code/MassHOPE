@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MassHOPE | Home</title>
+	<link rel= "stylesheet" href= "./assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+  </head>
+  <body>
+  		<header>
+				<!--#include virtual="./pages/inc/header.html" -->
+  		</header>
+		
+		<aside>
+			   	<!--#include virtual="./pages/inc/sideNav.html" -->
+		</aside>
+		
+		<article>
+					
+				 <a class= "bubble_links" href= "./pages/info.html">
+						<div id= "welcome_block">
+							<h2 id= "welcome_header">WELCOME</h2>
+							<p id= "welcome">Thank you for visiting the Massachusetts Homeschool Organization of Parent Educators. 
+							Learn more >></p>
+						</div>
+				 </a>
+				 
+				 <a class= "bubble_links" href= "./pages/convention.shtml" onmouseover= "conBlockOn();" onmouseout= "conBlockOff();">
+					<div class= "info_block">
+			 	 	  <h2 id="convention_header">CONVENTION</h2>
+			 		  <p id= "convention">
+							The 28th annual Christian homeschool convention will be held April 27-29th, 2017. Learn more >>
+						</p>
+			     </div>
+				 </a>
+				 
+				<a class= "bubble_links" href= "../assets/media/messenger.pdf" onmouseover= "messBlockOn();" onmouseout= "messBlockOff();">
+					<div class= "info_block">
+					 	  <h2 id= "messenger_header">MESSENGER</h2>
+						  <p id= "messenger">The most recent news for homeschoolers in Massachusetts. <br> Learn more >></p>
+		     </div>
+				</a>
+				
+				<a class= "bubble_links" href= "https://smile.amazon.com/ch/04-3220412" onmouseover= "amazonBlockOn();" onmouseout= "amazonBlockOff();">
+					<div class= "info_block">
+						<h2 id= "amazon_header"><img id= "amazonImage" src= "./assets/images/amazon.png"></h2>
+						 <p id= "amazon">Shop Amazon through our unique link, and 5% of your purchase will be donated to MassHOPE.</p>
+					</div>
+				</a>
+				
+				<a class= "bubble_links" href= "./pages/events.html" onmouseover= "gradBlockOn();" onmouseout= "gradBlockOff();">
+				 <div class= "info_block">
+						<h2 id= "graduation_header">GRADUATION</h2>
+						<p id= "graduation">The annual formal graduation will take place June 10th, 2017. Learn more >></p>
+				 </div>
+				</a>
+				 
+				<a class= "bubble_links" href= "./pages/events.html" onmouseover= "ucsBlockOn();" onmouseout= "ucsBlockOff();">
+				 <div class= "info_block">
+						<h2 id= "ucs_header">UCS</h2>
+						<p id= "ucs">The annual used curriculum sale is set for June 17th, 2017. Learn more >></p>
+				 </div>
+				</a>
+		</article>
+		
+		<footer>
+			<!--#include virtual="./pages/inc/footer.html" -->
+		</footer>
+		<script>
+				function conBlockOn()
+				{
+						 document.getElementById("convention").style.display = "block";
+						 document.getElementById("convention_header").style.display = "none";
+						 
+				}
+				function conBlockOff()
+				{
+						document.getElementById("convention").style.display = "none";
+						document.getElementById("convention_header").style.display = "block";
+					
+				}
+				function messBlockOn()
+				{
+						 document.getElementById("messenger").style.display = "block";
+						 document.getElementById("messenger_header").style.display = "none";
+						 
+				}
+				function messBlockOff()
+				{
+						document.getElementById("messenger").style.display = "none";
+						document.getElementById("messenger_header").style.display = "block";
+					
+				}
+				function amazonBlockOn()
+				{
+						 document.getElementById("amazon").style.display = "block";
+						 document.getElementById("amazon_header").style.display = "none";
+						 
+				}
+				function amazonBlockOff()
+				{
+						document.getElementById("amazon").style.display = "none";
+						document.getElementById("amazon_header").style.display = "block";
+					
+				}
+				function gradBlockOn()
+				{
+						 document.getElementById("graduation").style.display = "block";
+						 document.getElementById("graduation_header").style.display = "none";
+						 
+				}
+				function gradBlockOff()
+				{
+						document.getElementById("graduation").style.display = "none";
+						document.getElementById("graduation_header").style.display = "block";
+					
+				}
+				function ucsBlockOn()
+				{
+						 document.getElementById("ucs").style.display = "block";
+						 document.getElementById("ucs_header").style.display = "none";
+						 
+				}
+				function ucsBlockOff()
+				{
+						document.getElementById("ucs").style.display = "none";
+						document.getElementById("ucs_header").style.display = "block";
+					
+				}
+		</script>
+  </body>
+</html>

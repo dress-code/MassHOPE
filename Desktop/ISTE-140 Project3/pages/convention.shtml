@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Convention</title>
+    <link rel="stylesheet" href= "../assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <!--#include virtual="./inc/header.html" -->
+    </header>
+    
+    <aside>
+        <!--#include virtual="./inc/sideNav.html" -->
+    </aside>
+    
+    <article>
+        
+        <section id= "speakers">
+            <div class= "speaker_block">
+                Bill Jack.
+            </div>
+            
+             <div class= "speaker_block">
+                Bill Jack.
+            </div>
+             
+            <div class= "speaker_block">
+                Bill Jack.
+            </div>
+              
+            <div class= "speaker_block">
+                Bill Jack.
+            </div>
+        </section>
+        
+        <section id= "vendors">
+            
+        </section>
+        
+        <section id= "general_info".
+                 
+        </section>
+        
+    </article>
+    
+    <footer>
+        <!--#include virtual="./inc/footer.html" -->
+    </footer>
+
+
+</body>
+</html>
