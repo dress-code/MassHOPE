@@ -32,7 +32,7 @@
     margin-top:50px;
     margin-bottom:50px;
     }
-    
+
 #vendors_header {
     display:block;
     text-align:center;
@@ -57,6 +57,20 @@
     }
 
 #register {
+    display:none;
+    font-size:1.5em;
+    margin-top:50px;
+    margin-bottom:50px;
+    }
+#gen_info_header {
+    display:block;
+    text-align:center;
+    font-size:2.5em;
+    margin-top:100px;
+    margin-bottom:100px;
+    }
+
+#gen_info {
     display:none;
     font-size:1.5em;
     margin-top:50px;

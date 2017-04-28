@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>Contact</title>
+    <title>Support Groups</title>
     <link rel= "stylesheet" href= "../assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
@@ -14,7 +14,7 @@
 	</header>
 	
 	<section id= "nav_location_bar">
-				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "#">Contact</a>
+				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "#">Groups</a>
 	</section>
 	
 	<aside>
@@ -25,15 +25,15 @@
 			<dd><a href= "./events.shtml">Events</a></dd>
 			<dt><a href= "./info.shtml"><img src="../assets/images/info.png" alt="info"></a></dt>
 			<dd><a href= "./info.shtml">Info</a></dd>
-			<dt><a href= "#"><img src="../assets/images/contact.png" alt="contact"></a></dt>
-			<dd><a href= "#">Contact</a></dd>
-			<dt><a href= "./groups.shtml"><img src="../assets/images/groups.png" alt="groups"></a></dt>
-			<dd><a href= "./groups.shtml">Groups</a></dd>
+			<dt><a href= "./contact.shtml"><img src="../assets/images/contact.png" alt="contact"></a></dt>
+			<dd><a href= "./contact.shtml">Contact</a></dd>
+			<dt><a href= "#"><img src="../assets/images/groups.png" alt="groups"></a></dt>
+			<dd><a href= "#">Groups</a></dd>
 		</dl>
 	</aside>
 	
 	<article>
-		Contact information goes here.
+		Support group information goes here.
 	</article>
 
     <footer>

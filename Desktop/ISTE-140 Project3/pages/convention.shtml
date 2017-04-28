@@ -23,14 +23,14 @@
         <dl>
 			<dt><a href= "../index.shtml"><img src="../assets/images/home.png" alt="home"></a></dt>	
 			<dd><a href= "../index.shtml">Home</a></dd>    
-			<dt><a href= "./pages/events.shtml"><img src="../assets/images/events.png" alt="events"> </a></dt>
-			<dd><a href= "./pages/events.shtml">Events</a></dd>
-			<dt><a href= "./pages/info.html"><img src="../assets/images/info.png" alt="info"></a></dt>
-			<dd><a href= "./pages/info.html">Info</a></dd>
-			<dt><a href= "./pages/contact.shtml"><img src="../assets/images/contact.png" alt="contact"></a></dt>
-			<dd><a href= "./pages/contact.shtml">Contact</a></dd>
-			<dt><a href= "./pages/groups.html"><img src="../assets/images/groups.png" alt="groups"></a></dt>
-			<dd><a href= "./pages/groups.html">Groups</a></dd>
+			<dt><a href= "./events.shtml"><img src="../assets/images/events.png" alt="events"> </a></dt>
+			<dd><a href= "./events.shtml">Events</a></dd>
+			<dt><a href= "./info.shtml"><img src="../assets/images/info.png" alt="info"></a></dt>
+			<dd><a href= "./info.shtml">Info</a></dd>
+			<dt><a href= "./contact.shtml"><img src="../assets/images/contact.png" alt="contact"></a></dt>
+			<dd><a href= "./contact.shtml">Contact</a></dd>
+			<dt><a href= "./groups.shtml"><img src="../assets/images/groups.png" alt="groups"></a></dt>
+			<dd><a href= "./groups.shtml">Groups</a></dd>
 		</dl>
     </aside>
     
@@ -62,7 +62,15 @@
 				</p>
 			</div>
 		</a>
-        
+		
+		<a class= "bubble_links" href= "./convention_info.shtml" onmouseover= "genInfoBlockOn();" onmouseout= "genInfoBlockOff();">
+			<div class= "info_block">
+			 	<h2 id="gen_info_header">GENERAL INFO</h2>
+			 	<p id= "gen_info">
+						Information on volunteering, the silent auction, area hotels, and more. Go now >>
+				</p>
+			</div>
+		</a>
     </article>
     
     <footer>
@@ -106,6 +114,18 @@
 				{
 						document.getElementById("register").style.display = "none";
 						document.getElementById("register_header").style.display = "block";
+					
+				}
+				function genInfoBlockOn()
+				{
+						 document.getElementById("gen_info").style.display = "block";
+						 document.getElementById("gen_info_header").style.display = "none";
+						 
+				}
+				function genInfoBlockOff()
+				{
+						document.getElementById("gen_info").style.display = "none";
+						document.getElementById("gen_info_header").style.display = "block";
 					
 				}
 	</script>
