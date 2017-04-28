@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Speakers</title>
+	<link rel= "stylesheet" href= "../assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section class= "header_block">
+			<!--#include virtual="./inc/header.html" -->
+		</section>
+    </header>
+	
+	<section id= "nav_location_bar">
+				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "./events.shtml">Events</a> > <a href= "./convention.shtml">Convention</a> > <a href= "#">Speakers</a></p>
+	</section>
+    
+    <aside>
+        <!--#include virtual="./inc/sideNav.html" -->
+    </aside>
+     
+    <article>
+            
+        <div class= "speaker_block">
+                Bill Jack.
+        </div>
+             
+        <div class= "speaker_block">
+                Bill Jack.
+        </div>
+              
+        <div class= "speaker_block">
+                Bill Jack.
+        </div>
+    </article>
+
+     <footer>
+        <!--#include virtual="./inc/footer.html" -->
+    </footer>
+</body>
+</html>

@@ -16,4 +16,49 @@
 .speaker_block:hover {
     background-color:#0E6BA8;
     color:#F2F5F7;
-}
+    }
+    
+#speakers_header {
+    display:block;
+    text-align:center;
+    font-size:2.5em;
+    margin-top:100px;
+    margin-bottom:100px;
+    }
+
+#speakers {
+    display:none;
+    font-size:1.5em;
+    margin-top:50px;
+    margin-bottom:50px;
+    }
+    
+#vendors_header {
+    display:block;
+    text-align:center;
+    font-size:2.5em;
+    margin-top:100px;
+    margin-bottom:100px;
+    }
+
+#vendors {
+    display:none;
+    font-size:1.5em;
+    margin-top:50px;
+    margin-bottom:50px;
+    }
+    
+#register_header {
+    display:block;
+    text-align:center;
+    font-size:2.5em;
+    margin-top:100px;
+    margin-bottom:100px;
+    }
+
+#register {
+    display:none;
+    font-size:1.5em;
+    margin-top:50px;
+    margin-bottom:50px;
+    }

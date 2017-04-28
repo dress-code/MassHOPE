@@ -10,8 +10,12 @@
   </head>
   <body>
   		<header>
-					<img id= "logo" src="./assets/images/MassHOPE_logo.png" alt="MassHOPE's logo">
+					<!--#include virtual="./pages/inc/header.html" -->
   		</header>
+			
+			<section id= "nav_location_bar">
+				<p>You are here: <a href= "#">Home</a></p>
+			</section>
 		
 		<aside>
 			 <!--#include virtual="./pages/inc/sideNav.html" -->

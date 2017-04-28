@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href= "../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<body>
+    
+    <header>
+        <section class= "header_block">
+			<!--#include virtual="./inc/header.html" -->
+		</section>
+    </header>
+    
+    <section id= "nav_location_bar">
+				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "./events.shtml">Events</a> > <a href= "./convention.shtml">Convention</a> > <a href= "#">Register</a></p>
+	</section>
+	
+	<aside>
+        <!--#include virtual="./inc/sideNav.html" -->
+    </aside>
+    
+    <article>
+        <p>Sorry, online registration for the 2017 convention has closed. You can still register onsite at any point during the weekend. <br>Please keep in mind that the children's program is at maximum capacity. <br><a href= "./convention.shtml">Go back.</a></p>   
+    </article>
+	
+	<footer>
+        <!--#include virtual="./inc/footer.html" -->
+    </footer>
+
+</body>
+</html>

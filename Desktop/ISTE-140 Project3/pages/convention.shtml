@@ -11,51 +11,92 @@
 <body>
     <header>
         <section class= "header_block">
-					<img id= "logo" src="../assets/images/MassHOPE_logo.png" alt="MassHOPE's logo">
-		</section>
-		<section class= "header_block">
-			<h1></h1>
+					<!--#include virtual="./inc/header.html" -->
 		</section>
     </header>
+	
+	<section id= "nav_location_bar">
+				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "./events.shtml">Events</a> > <a href= "#">Convention</a></p>
+	</section>
     
     <aside>
         <!--#include virtual="./inc/sideNav.html" -->
     </aside>
     
     <article>
-        
-        <section id= "speakers">
-            <div class= "speaker_block">
-                Bill Jack.
-            </div>
-            
-             <div class= "speaker_block">
-                Bill Jack.
-            </div>
-             
-            <div class= "speaker_block">
-                Bill Jack.
-            </div>
-              
-            <div class= "speaker_block">
-                Bill Jack.
-            </div>
-        </section>
-        
-        <section id= "vendors">
-            
-        </section>
-        
-        <section id= "general_info".
-                 
-        </section>
+        <a class= "bubble_links" href= "./speakers.shtml" onmouseover= "speakerBlockOn();" onmouseout= "speakerBlockOff();">
+			<div class= "info_block">
+			 	<h2 id="speakers_header">SPEAKERS</h2>
+			 	<p id= "speakers">
+						Meet the speakers of the 2017 convention. Learn more >>
+				</p>
+			</div>
+		</a>
+		 
+		<a class= "bubble_links" href= "./vendors.shtml" onmouseover= "vendorsBlockOn();" onmouseout= "vendorsBlockOff();">
+			<div class= "info_block">
+			 	<h2 id="vendors_header">VENDORS</h2>
+			 	<p id= "vendors">
+						Need to plan your shopping? Look no further. Learn more >>
+				</p>
+			</div>
+		</a>
+		  
+		<a class= "bubble_links" href= "./register.shtml" onmouseover= "registerBlockOn();" onmouseout= "registerBlockOff();">
+			<div class= "info_block">
+			 	<h2 id="register_header">REGISTER</h2>
+			 	<p id= "register">
+						Register for the 2017 convention online.
+						<br>Go now >>
+				</p>
+			</div>
+		</a>
         
     </article>
     
     <footer>
         <!--#include virtual="./inc/footer.html" -->
     </footer>
-
-
+	
+	<script>
+				function speakerBlockOn()
+				{
+						 document.getElementById("speakers").style.display = "block";
+						 document.getElementById("speakers_header").style.display = "none";
+						 
+				}
+				function speakerBlockOff()
+				{
+						document.getElementById("speakers").style.display = "none";
+						document.getElementById("speakers_header").style.display = "block";
+					
+				}
+				
+				function vendorsBlockOn()
+				{
+						 document.getElementById("vendors").style.display = "block";
+						 document.getElementById("vendors_header").style.display = "none";
+						 
+				}
+				function vendorsBlockOff()
+				{
+						document.getElementById("vendors").style.display = "none";
+						document.getElementById("vendors_header").style.display = "block";
+					
+				}
+				
+				function registerBlockOn()
+				{
+						 document.getElementById("register").style.display = "block";
+						 document.getElementById("register_header").style.display = "none";
+						 
+				}
+				function registerBlockOff()
+				{
+						document.getElementById("register").style.display = "none";
+						document.getElementById("register_header").style.display = "block";
+					
+				}
+	</script>
 </body>
 </html>
