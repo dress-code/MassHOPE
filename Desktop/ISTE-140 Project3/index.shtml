@@ -4,16 +4,17 @@
     <meta charset="utf-8">
     <title>MassHOPE | Home</title>
 	<link rel= "stylesheet" href= "./assets/css/style.css">
+	<link rel= "stylesheet" href= "./assets/css/home_style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
   </head>
   <body>
   		<header>
-				<!--#include virtual="./pages/inc/header.html" -->
+					<img id= "logo" src="./assets/images/MassHOPE_logo.png" alt="MassHOPE's logo">
   		</header>
 		
 		<aside>
-			   	<!--#include virtual="./pages/inc/sideNav.html" -->
+			 <!--#include virtual="./pages/inc/sideNav.html" -->
 		</aside>
 		
 		<article>
@@ -22,7 +23,7 @@
 						<div id= "welcome_block">
 							<h2 id= "welcome_header">WELCOME</h2>
 							<p id= "welcome">Thank you for visiting the Massachusetts Homeschool Organization of Parent Educators. 
-							Learn more >></p>
+							Learn more >>
 						</div>
 				 </a>
 				 

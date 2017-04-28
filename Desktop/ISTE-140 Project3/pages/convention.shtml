@@ -4,11 +4,18 @@
 <head>
     <title>Convention</title>
     <link rel="stylesheet" href= "../assets/css/style.css">
+	<link rel="stylesheet" href= "../assets/css/con_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <!--#include virtual="./inc/header.html" -->
+        <section class= "header_block">
+					<img id= "logo" src="../assets/images/MassHOPE_logo.png" alt="MassHOPE's logo">
+		</section>
+		<section class= "header_block">
+			<h1></h1>
+		</section>
     </header>
     
     <aside>
