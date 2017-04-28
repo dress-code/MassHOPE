@@ -18,11 +18,22 @@
 			</section>
 		
 		<aside>
-			 <!--#include virtual="./pages/inc/sideNav.html" -->
+					<dl>
+							<dt><a href= "#"><img src="./assets/images/home.png" alt="home"></a></dt>	
+							<dd><a href= "#">Home</a></dd>    
+							<dt><a href= "./pages/events.shtml"><img src="./assets/images/events.png" alt="events"> </a></dt>
+							<dd><a href= "./pages/events.shtml">Events</a></dd>
+							<dt><a href= "./pages/info.html"><img src="./assets/images/info.png" alt="info"></a></dt>
+							<dd><a href= "./pages/info.html">Info</a></dd>
+							<dt><a href= "./pages/contact.shtml"><img src="./assets/images/contact.png" alt="contact"></a></dt>
+							<dd><a href= "./pages/contact.shtml">Contact</a></dd>
+							<dt><a href= "./pages/groups.html"><img src="./assets/images/groups.png" alt="groups"></a></dt>
+							<dd><a href= "./pages/groups.html">Groups</a></dd>
+					</dl>
 		</aside>
 		
 		<article>
-					
+				<div id= "front_page_info"> 	
 				 <a class= "bubble_links" href= "./pages/info.html">
 						<div id= "welcome_block">
 							<h2 id= "welcome_header">WELCOME</h2>
@@ -54,19 +65,20 @@
 					</div>
 				</a>
 				
-				<a class= "bubble_links" href= "./pages/events.html" onmouseover= "gradBlockOn();" onmouseout= "gradBlockOff();">
+				<a class= "bubble_links" href= "./pages/events.shtml" onmouseover= "gradBlockOn();" onmouseout= "gradBlockOff();">
 				 <div class= "info_block">
 						<h2 id= "graduation_header">GRADUATION</h2>
 						<p id= "graduation">The annual formal graduation will take place June 10th, 2017. Learn more >></p>
 				 </div>
 				</a>
 				 
-				<a class= "bubble_links" href= "./pages/events.html" onmouseover= "ucsBlockOn();" onmouseout= "ucsBlockOff();">
+				<a class= "bubble_links" href= "./pages/events.shtml" onmouseover= "ucsBlockOn();" onmouseout= "ucsBlockOff();">
 				 <div class= "info_block">
 						<h2 id= "ucs_header">UCS</h2>
 						<p id= "ucs">The annual used curriculum sale is set for June 17th, 2017. Learn more >></p>
 				 </div>
 				</a>
+			</div>
 		</article>
 		
 		<footer>

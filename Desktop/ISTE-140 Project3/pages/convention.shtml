@@ -20,7 +20,18 @@
 	</section>
     
     <aside>
-        <!--#include virtual="./inc/sideNav.html" -->
+        <dl>
+			<dt><a href= "../index.shtml"><img src="../assets/images/home.png" alt="home"></a></dt>	
+			<dd><a href= "../index.shtml">Home</a></dd>    
+			<dt><a href= "./pages/events.shtml"><img src="../assets/images/events.png" alt="events"> </a></dt>
+			<dd><a href= "./pages/events.shtml">Events</a></dd>
+			<dt><a href= "./pages/info.html"><img src="../assets/images/info.png" alt="info"></a></dt>
+			<dd><a href= "./pages/info.html">Info</a></dd>
+			<dt><a href= "./pages/contact.shtml"><img src="../assets/images/contact.png" alt="contact"></a></dt>
+			<dd><a href= "./pages/contact.shtml">Contact</a></dd>
+			<dt><a href= "./pages/groups.html"><img src="../assets/images/groups.png" alt="groups"></a></dt>
+			<dd><a href= "./pages/groups.html">Groups</a></dd>
+		</dl>
     </aside>
     
     <article>
@@ -37,7 +48,7 @@
 			<div class= "info_block">
 			 	<h2 id="vendors_header">VENDORS</h2>
 			 	<p id= "vendors">
-						Need to plan your shopping? Look no further. Learn more >>
+						MassHOPE has 80+ vendors this year! Start planning your shopping >>
 				</p>
 			</div>
 		</a>

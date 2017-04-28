@@ -20,7 +20,18 @@
 	</section>
 	
 	<aside>
-        <!--#include virtual="./inc/sideNav.html" -->
+        <dl>
+			<dt><a href= "../index.shtml"><img src="../assets/images/home.png" alt="home"></a></dt>	
+			<dd><a href= "../index.shtml">Home</a></dd>    
+			<dt><a href= "./events.shtml"><img src="../assets/images/events.png" alt="events"> </a></dt>
+			<dd><a href= "./events.shtml">Events</a></dd>
+			<dt><a href= "./info.html"><img src="../assets/images/info.png" alt="info"></a></dt>
+			<dd><a href= "./info.html">Info</a></dd>
+			<dt><a href= "./contact.shtml"><img src="../assets/images/contact.png" alt="contact"></a></dt>
+			<dd><a href= "./contact.shtml">Contact</a></dd>
+			<dt><a href= "./groups.html"><img src="../assets/images/groups.png" alt="groups"></a></dt>
+			<dd><a href= "./groups.html">Groups</a></dd>
+		</dl>
     </aside>
     
     <article>
