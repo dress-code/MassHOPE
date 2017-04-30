@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MassHOPE | Home</title>
+	<link rel= "stylesheet" href= "./assets/css/style.css">
+	<link rel= "stylesheet" href= "./assets/css/home_style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+  </head>
+  <body>
+  		<header>
+					<!--#include virtual="./pages/inc/header.html" -->
+  		</header>
+			
+			<section id= "nav_location_bar">
+				<p>You are here: <a href= "#">Home</a></p>
+			</section>
+		
+		<aside>
+					<dl>
+							<dt><a href= "#"><img src="./assets/images/home.png" alt="home"></a></dt>	
+							<dd><a href= "#">Home</a></dd>    
+							<dt><a href= "./pages/events.shtml"><img src="./assets/images/events.png" alt="events"> </a></dt>
+							<dd><a href= "./pages/events.shtml">Events</a></dd>
+							<dt><a href= "./pages/info.shtml"><img src="./assets/images/info.png" alt="info"></a></dt>
+							<dd><a href= "./pages/info.shtml">Info</a></dd>
+							<dt><a href= "./pages/contact.shtml"><img src="./assets/images/contact.png" alt="contact"></a></dt>
+							<dd><a href= "./pages/contact.shtml">Contact</a></dd>
+							<dt><a href= "./pages/groups.shtml"><img src="./assets/images/groups.png" alt="groups"></a></dt>
+							<dd><a href= "./pages/groups.shtml">Groups</a></dd>
+					</dl>
+		</aside>
+		
+		<article>
+				<div id= "front_page_info"> 	
+				 <a class= "bubble_links" href= "./pages/info.shtml">
+						<div id= "welcome_block">
+							<h2 id= "welcome_header">WELCOME</h2>
+							<p id= "welcome">Thank you for visiting the Massachusetts Homeschool Organization of Parent Educators. 
+							Learn more >>
+						</div>
+				 </a>
+				 
+				 <a class= "bubble_links" href= "./pages/convention.shtml" onmouseover= "conBlockOn();" onmouseout= "conBlockOff();">
+					<div class= "info_block">
+			 	 	  <h2 id="convention_header">CONVENTION</h2>
+			 		  <p id= "convention">
+							The 28th annual Christian homeschool convention will be held April 27-29th, 2017. Learn more >>
+						</p>
+			     </div>
+				 </a>
+				 
+				<a class= "bubble_links" href= "http://campaign.r20.constantcontact.com/render?ca=ca1b3078-7a36-4cca-8a0d-c547054486b5" onmouseover= "messBlockOn();" onmouseout= "messBlockOff();">
+					<div class= "info_block">
+					 	  <h2 id= "messenger_header">MESSENGER</h2>
+						  <p id= "messenger">The most recent news for homeschoolers in Massachusetts. <br>View now >></p>
+		     </div>
+				</a>
+				
+				<a class= "bubble_links" href= "https://smile.amazon.com/ch/04-3220412" onmouseover= "amazonBlockOn();" onmouseout= "amazonBlockOff();">
+					<div class= "info_block">
+						<h2 id= "amazon_header"><img id= "amazonImage" src= "./assets/images/amazon.png"></h2>
+						 <p id= "amazon">Shop Amazon through our unique link, and 5% of your purchase will be donated to MassHOPE.</p>
+					</div>
+				</a>
+				
+				<a class= "bubble_links" href= "./pages/events.shtml" onmouseover= "eventBlockOn();" onmouseout= "eventBlockOff();">
+				 <div class= "info_block">
+						<h2 id= "event_header">EVENTS</h2>
+						<p id= "event">Learn about all of MassHOPE's events. Go now >></p>
+				 </div>
+				</a>
+				 
+				<a class= "bubble_links" href= "./pages/TVOH.shtml" onmouseover= "tvohBlockOn();" onmouseout= "tvohBlockOff();">
+				 <div class= "info_block">
+						<h2 id= "tvoh_header">THE VOICE OF HOPE</h2>
+						<p id= "tvoh">The quarterly printed newsletter for MassHOPE. <br>Sign up now >></p>
+				 </div>
+				</a>
+			</div>
+		</article>
+		
+		<footer>
+			<!--#include virtual="./pages/inc/footer.html" -->
+		</footer>
+		<script>
+				function conBlockOn()
+				{
+						 document.getElementById("convention").style.display = "block";
+						 document.getElementById("convention_header").style.display = "none";
+						 
+				}
+				function conBlockOff()
+				{
+						document.getElementById("convention").style.display = "none";
+						document.getElementById("convention_header").style.display = "block";
+					
+				}
+				function messBlockOn()
+				{
+						 document.getElementById("messenger").style.display = "block";
+						 document.getElementById("messenger_header").style.display = "none";
+						 
+				}
+				function messBlockOff()
+				{
+						document.getElementById("messenger").style.display = "none";
+						document.getElementById("messenger_header").style.display = "block";
+					
+				}
+				function amazonBlockOn()
+				{
+						 document.getElementById("amazon").style.display = "block";
+						 document.getElementById("amazon_header").style.display = "none";
+						 
+				}
+				function amazonBlockOff()
+				{
+						document.getElementById("amazon").style.display = "none";
+						document.getElementById("amazon_header").style.display = "block";
+					
+				}
+				function eventBlockOn()
+				{
+						 document.getElementById("event").style.display = "block";
+						 document.getElementById("event_header").style.display = "none";
+						 
+				}
+				function eventBlockOff()
+				{
+						document.getElementById("event").style.display = "none";
+						document.getElementById("event_header").style.display = "block";
+					
+				}
+				function tvohBlockOn()
+				{
+						 document.getElementById("tvoh").style.display = "block";
+						 document.getElementById("tvoh_header").style.display = "none";
+						 
+				}
+				function tvohBlockOff()
+				{
+						document.getElementById("tvoh").style.display = "none";
+						document.getElementById("tvoh_header").style.display = "block";
+					
+				}
+	 </script>
+  </body>
+</html>

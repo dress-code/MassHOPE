@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Vendors</title>
+    <link rel="stylesheet" href= "../assets/css/style.css">
+	<link rel="stylesheet" href= "../assets/css/vendor_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section class= "header_block">
+			<!--#include virtual="./inc/header.html" -->
+		</section>
+    </header>
+    
+    <section id= "nav_location_bar">
+				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "./events.shtml">Events</a> > <a href= "./convention.shtml">Convention</a> > <a href= "#">Vendors</a></p>
+	</section>
+	
+	<aside>
+        <dl>
+			<dt><a href= "../index.shtml"><img src="../assets/images/home.png" alt="home"></a></dt>	
+			<dd><a href= "../index.shtml">Home</a></dd>    
+			<dt><a href= "./events.shtml"><img src="../assets/images/events.png" alt="events"> </a></dt>
+			<dd><a href= "./events.shtml">Events</a></dd>
+			<dt><a href= "./info.shtml"><img src="../assets/images/info.png" alt="info"></a></dt>
+			<dd><a href= "./info.shtml">Info</a></dd>
+			<dt><a href= "./contact.shtml"><img src="../assets/images/contact.png" alt="contact"></a></dt>
+			<dd><a href= "./contact.shtml">Contact</a></dd>
+			<dt><a href= "./groups.shtml"><img src="../assets/images/groups.png" alt="groups"></a></dt>
+			<dd><a href= "./groups.shtml">Groups</a></dd>
+		</dl>
+    </aside>
+    
+    <article>
+	  <section id= "vendor_des">
+		<h1>Vendors</h1>
+		<p>Wondering if a specific vendor will be at MassHOPE's convention this year? Look no further! All of our vendors are listed here on this page. Click on the names of the vendors to go to their websites.</p>
+	  </section>
+	  <section class= "vendor_info">
+        <ul id= "vendor_list">
+			<li><a href= "http://www.abeka.com/">A Beka Book/A Beka Academy</a></li>
+			<li><a href= "http://www.abilitybasedlearning.com/">Ability Based Learning LLC</a></li>
+			<li><a href= "http://www.alphaomegapropertyservices.com">Alpha Omega Property Services</a></li>
+			<li><a href= "http://www.appliedinspirations.com/">Applied Inspirations Electronics Curriculum</a></li>
+			<li><a href= "http://www.bereanbuilders.com/">Berean Builders</a></li>
+			<li><a href= "http://www.berkshireinstitute.org/">Berkshire Institute for Christian Studies</a></li>
+			<li><a href= "http://www.homeworksbyprecept.com/">BJU Press/HomeWorks by Precept</a></li>
+			<li><a href= "http://www.brainathonemporium.com/">BRAIN-athon Emporium</a></li>
+			<li><a href= "http://www.cslewis.org/">C.S. Lewis Foundation</a></li>
+			<li><a href= "http://www.cairn.edu/">Cairn University</a></li>
+			<li><a href= "http://www.campconstitution.net/">Camp Constitution</a></li>
+			<li><a href= "http://www.clp.org/">Christian Light Education</a></li>
+			<li><a href= "http://www.classicalacademicpress.com/">Classical Academic Press</a></li>
+			<li><a href= "http://www.classicalconversations.com/">Classical Conversations</a></li>
+			<li><a href= "http://www.covenanteyes.com/">Covenant Eyes</a></li>
+			<li><a href= "http://www.creative-learning-solutions.com/">Creative Learning Solutions</a></li>
+			<li><a href= "http://www.demmelearning.com/">Demme Learning</a></li>
+			<li><a href= "http://www.mydoterra.com/sidellessentials">doTERRA International</a></li>
+			<li><a href= "http://www.enc.edu/">Eastern Nazarene College</a></li>
+			<li><a href= "http://www.educate7.com/">EDUCATE7</a></li>
+			<li><a href= "http://www.ebshome.org/">Explorer's Study Bible</a></li>
+			<li><a href= "http://www.findingchristthroughfiction.com/">Finding Christ Books</a></li>
+			<li>Good Steward Books<li>
+			<li><a href= "http://www.greatwolf.com/newengland">Great Wolf Lodge</a></li>
+			<li><a href= "http://www.gcc.edu/">Grove City College</a></li>
+			<li><a href= "http://www.historicalconquest.com/">Historical Conquest LLC</a></li>
+			<li><a href= "http://www.holyapostles.edu/">Holy Apostles College and Seminary</a></li>
+			<li><a href= "http://www.homeschoolfoundation.org/">Homeschool Foundation</a></li>
+			<li><a href= "http://www.hslda.org/">Home School Legal Defense Association (HSLDA)</a></li>
+			<li><a href= "http://www.homeschoolersofmaine.org/">Homeschoolers of Maine</a></li>
+			<li><a href= "http://www.alertacademy.com/cadet/">International ALERT Academy</a></li>
+			<li><a href= "http://www.iopentutoring.com/">iOpen Tutoring</a></li>
+			<li><a href= "http://jimhodgesaudiobooks.com/">Jim Hodges Audio Books</a></li>
+			<li><a href= "http://www.shecleansgreen.com/">Krystle Monticue - Norwex Independent Sales Consultant</a></li>
+			<li><a href= "http://www.lamplighter.net/">Lamplighter Publishing</a></li>
+			<li><a href= "http://www.landmarkbaptistchurch.org/">Landmark's Freedom Baptist Curriculum</a></li>
+			<li>Living Waters / Rod + Staff Publishers</li>
+			<li><a href= "http://www.love146.org/">Love 146 - Elm City Abolitionists</a></li>
+			<li><a href= "http://www.lumalearn.com/">LUMALEARN</a></li>
+			<li><a href= "http://www.mafamily.org/">Massachusetts Family Institute</a></li>
+			<li><a href= "http://www.masshope.org/">MassHOPE</a></li>
+			<li><a href= "http://www.millerpadsandpaper.com/">Miller Pads & Paper</a></li>
+			<li><a href= "http://www.missionimperative.org/">Mission: Imperative!</a></li>
+			<li><a href= "http://www.mooseriveroutpost.net/">Moose River Outpost</a></li>
+			<li><a href= "http://www.mwcc.edu/">Mount Wachusett Community College</a></li>
+			<li><a href= "http://www.mrdmath.com/">Mr. D Math</a></li>
+			<li><a href= "http://www.biblicalparenting.org/">National Center for Biblical Parenting</a></li>
+			<li><a href= "http://www.nheri.org/">National Homes Education Research Institute</a></li>
+			<li>Nature's Secrets</li>
+			<li><a href= "http://www.workshopplus.com/">Nature's Workshop Plus Inc.</a></li>
+			<li><a href= "http://www.bestbibledvds.com/">NEST Family Entertainment</a></li>
+			<li><a href= "http://www.neaq.org/">New England Aquarium</a></li>
+			<li><a href= "http://www.newlifefinearts.org/">New Life Fine Arts</a></li>
+			<li><a href= "http://www.ntm.org/">New Tribes Mission</a></li>
+			<li><a href= "http://www.notgrass.com/">Notgrass History</a></li>
+			<li><a href= "http://www.samaritanspurse.org/">Operation Christmas Child/Samaritan's Purse</a></li>
+			<li><a href= "http://www.peacefulpillowcases.com/">Peaceful Pillowcases</a></li>
+			<li><a href= "http://www.pcci.edu/">Pensacola Christian College</a></li>
+			<li><a href= "http://www.rainbowresource.com/">Rainbow Respirce LLP</a></li>
+			<li><a href= "http://www.rightstartmath.com/">RightStart Mathematics by Activities for Learning Inc.</a></li>
+			<li><a href= "http://www.lillarose.biz/skirtedblues">Ruth Visser - Lilla Rose Independent Stylist</a></li>
+			<li><a href= "http://www.sattlercollegesite.squarespace.com/">Sattler College</a></li>
+			<li>Save U Money</li>
+			<li><a href= "http://www.simplycharlottemason.com/">Simply Charlotte Mason</a></li>
+			<li><a href= "http://www.sonlight.com/">Sonlight Curriculum</a></li>
+			<li><a href= "http://www.southernsciencesupply.com/">Southern Science Supply</a></li>
+			<li><a href= "http://www.teachct.org/">TEACH - CT</a></li>
+			<li><a href= "http://www.teachingtextbooks.com/">Teaching Textbooks</a></li>
+			<li><a href= "http://www.teenpact.com/">TeenPact Leadership Schools</a></li>
+			<li><a href= "http://www.theetiquettefactory.com/">The Etiquette Factory</a></li>
+			<li><a href= "http://www.medtranscription.com/">The Medical Transcription Service</a></li>
+			<li><a href= "http://www.themysteryofhistory.com/">The Mystery of History</a></li>
+			<li>The Widow's Friend</li>
+			<li><a href= "http://www.thewildsofnewengland.org/">The Wilds of New England</a></li>
+			<li><a href= "http://www.thomasaquinas.edu/">Thomas Aquinas College</a></li>
+			<li><a href= "http://www.thrivent.com/">Thrivent Financial</a></li>
+			<li><a href= "http://www.totallanguageplus.com/">Total Language Plus</a></li>
+			<li><a href= "http://www.wonderfunbooks.com/">Usborne Books and More</a></li>
+			<li><a href= "http://www.videotext.com/">VideoText Interactive Homeschool Math</a></li>
+			<li><a href= "http://www.worldview.org/">Worldview Acadmey</a></li>
+			<li><a href= "http://www.writeshop.com/">WriteShop</a></li>
+			<li><a href= "http://www.startearlyandsucceed.com/">Young Entrepreneurs of North America</a></li>
+			<li><a href= "http://www.essentialoilsofjoy.com/">Young Living Essential Oils</a></li>
+			<li><a href= "http://www.ywampublishing.com/">YWAM Publishing</a></li>
+		</ul>
+	  </section>
+    </article>
+	
+	<footer>
+        <!--#include virtual="./inc/footer.html" -->
+    </footer>
+</body>
+</html>
