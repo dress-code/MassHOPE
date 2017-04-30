@@ -1,0 +1,44 @@
+#convention_header {
+    display:block;
+    text-align:center;
+    font-size:2.4em;
+    margin-top:100px;
+    margin-bottom:100px;
+    }
+
+#convention {
+    display:none;
+    font-size:1.5em;
+    margin-top:50px;
+    margin-bottom:50px;
+    }
+    
+#ucs_header {
+    display:block; 
+    text-align:center;
+    font-size:2.4em;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+#ucs {
+    display:none;
+    font-size:1.5em;
+    margin-top:50px;
+    margin-bottom:50px;
+  }
+  
+#graduation_header {
+    display:block;
+    text-align:center;
+    font-size:2.4em;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+#graduation {
+    display:none;
+    font-size:1.5em;
+    margin-top:50px;
+    margin-bottom:50px;
+  }

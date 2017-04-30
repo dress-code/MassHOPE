@@ -4,6 +4,7 @@
 <head>
     <title>Contact</title>
     <link rel= "stylesheet" href= "../assets/css/style.css">
+	<link rel= "stylesheet" href= "../assets/css/contact_style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 
@@ -33,11 +34,57 @@
 	</aside>
 	
 	<article>
-		Contact information goes here.
+		
+		<h1>Contact Us</h1>
+		<section>
+			<p id= "contact_para">Please do not hesitate to contact us using any of the three methods below. We would be happy to help assist you with any questions you may have about anythign related to us or homes education.</p>
+		</section>
+		<div id= "contact_info">
+			<section class= "contact_block">
+				<h2>By Telephone</h2>
+				<p>(508) 829-0973</p>
+			</section>
+			<section class= "contact_block" onclick= "show(email);">
+				<h2>By E-mail</h2>
+				<p>Click for e-mail listings.</p>
+				<dl id= "email">
+					<dt>General Information</dt>
+					<dd>info@masshope.org</dd>
+					<dt>Convention</dt>
+					<dd>convention@masshope.org</dd>
+					<dt>Newsletter</dt>
+					<dd>newsletter@masshop.org</dd>
+					<dt>Vendors</dt>
+					<dd>exhibithall@masshope.org</dd>
+					<dt>Volunteers</dt>
+					<dd>volunteer@masshope.org</dd>
+					<dt id= "close" onmousedown= "hide(email);">Click to close</dt>
+				</dl>
+			</section>
+			<section class= "contact_block">
+				<h2>By Mail</h2>
+				<p>MassHOPE
+				<br>46 South Road
+				<br>Holden, MA 01520
+				</p>
+			</section>
+		</div>
 	</article>
 
     <footer>
 		<!--#include virtual="./inc/footer.html" -->
 	</footer>
+	
+	<script>
+		function show(elementID)
+			{
+				(elementID).style.display = "block";
+			}
+			
+		function hide(elementID)
+			{
+				(elementID).style.display = "none";
+			}
+	</script>
 </body>
 </html>

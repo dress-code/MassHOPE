@@ -17,7 +17,7 @@
 }
 
 #welcome_header {
-    font-size:2.5em;  
+    font-size:2.4em;  
 }
 
 #welcome_block {
@@ -37,7 +37,7 @@
 #convention_header {
     display:block;
     text-align:center;
-    font-size:2.5em;
+    font-size:2.4em;
     margin-top:100px;
     margin-bottom:100px;
     }
@@ -52,7 +52,7 @@
 #messenger_header {
     display:block;
     text-align:center;
-    font-size:2.5em;
+    font-size:2.4em;
     margin-top:100px;
     margin-bottom:100px;
     }   
@@ -65,9 +65,9 @@
     }
   
 #ucs_header {
-    display:block;
+    display:block; 
     text-align:center;
-    font-size:2.5em;
+    font-size:2.4em;
     margin-top:100px;
     margin-bottom:100px;
 }
@@ -82,7 +82,7 @@
 #graduation_header {
     display:block;
     text-align:center;
-    font-size:2.5em;
+    font-size:2.4em;
     margin-top:100px;
     margin-bottom:100px;
 }

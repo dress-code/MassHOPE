@@ -34,7 +34,7 @@
 		
 		<article>
 				<div id= "front_page_info"> 	
-				 <a class= "bubble_links" href= "./pages/info.html">
+				 <a class= "bubble_links" href= "./pages/info.shtml">
 						<div id= "welcome_block">
 							<h2 id= "welcome_header">WELCOME</h2>
 							<p id= "welcome">Thank you for visiting the Massachusetts Homeschool Organization of Parent Educators. 
@@ -145,6 +145,6 @@
 						document.getElementById("ucs_header").style.display = "block";
 					
 				}
-		</script>
+	 </script>
   </body>
 </html>
