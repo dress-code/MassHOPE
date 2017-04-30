@@ -2,8 +2,9 @@
 
 <html>
 <head>
-    <title>Support Groups</title>
+    <title>MassHOPE | Groups</title>
     <link rel= "stylesheet" href= "../assets/css/style.css">
+	<link rel="stylesheet" href= "../assets/css/groups_style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
 
@@ -33,7 +34,75 @@
 	</aside>
 	
 	<article>
-		Support group information goes here.
+		<section id= "group_des">
+		<h1>GROUPS</h1>
+		<p id= "group_para">Groups are a great way to meet other homeschoolers in your area and get much needed encouragement and support. Check the list below to find a support group near you.
+		If you have any questions regarding support groups, or on how to become a MassHOPE affiliated support group, please contact networking@masshope.org.</p>
+	  </section>
+	  <section class= "group_info">
+        <dl id= "group_list">
+			<dt>BBC Homeschool Co-op</dt>
+			<dd>West Boylston, MA</dd>
+			<dt>Beacon Homeschool Group</dt>
+			<dd>Easton, MA</dd>
+			<dt>Blessings At Home</dt>
+			<dd>Winchendon, MA</dd>
+			<dt>Central Mass Homeschoolers</dt>
+			<dd>Hudson, MA</dd>
+			<dt>Central New England Homeschoolers</dt>
+			<dd>Gardner, MA</dd>
+			<dt>Christian Home Educated Children (CHEC)</dt>
+			<dd>Princeton, MA</dd>
+			<dt>CHEC-LINKS Co-op</dt>
+			<dd>Princeton, MA</dd>
+			<dt>CHOSEN</dt>
+			<dd>Seekonk, MA/RI</dd>
+			<dt>DELTIC Co-operative</dt>
+			<dd>Uxbridge, MA</dd>
+			<dt>Desrired Haven</dt>
+			<dd>Brimfield, MA</dd>
+			<dt>FAITH</dt>
+			<dd>Weston, MA</dd>
+			<dt>Families Learning Together</dt>
+			<dd>Hingham, MA</dd>
+			<dt>Friends of Grace</dt>
+			<dd>Chelmsford, MA</dd>
+			<dt>Gardner Learning In Godly Homes Together (Gardner LIGHT)</dt>
+			<dd>Gardner, MA</dd>
+			<dt>GRACE Homeschoolers</dt>
+			<dd>Fitchburg, MA</dd>
+			<dt>Haverhill Area Homeschoolers</dt>
+			<dd>Haverhill, MA</dd>
+			<dt>Heritage Homeschoolers of the Berkshires</dt>
+			<dd>Dalton, MA</dd>
+			<dt>Leaders of Tomorrow</dt>
+			<dd>Fall River, MA</dd>
+			<dt>Learning Together</dt>
+			<dd>Hopkinton, MA</dd>
+			<dt>Living In Families For Excellence (LIFE)</dt>
+			<dd>Rehoboth, MA</dd>
+			<dt>Montachusett Area Christian Homeschoolers (MACH)</dt>
+			<dd>Lunenburg, Fitchburg, Leominster, & Sterling, MA</dd>
+			<dt>Moms In Real Life</dt>
+			<dd>Upton, MA</dd>
+			<dt>North Shore Christian Homeschoolers</dt>
+			<dd>Hamilton, Beverly, & Danvers, MA</dd>
+			<dt>Park Street Church</dt>
+			<dd>Boston, MA</dd>
+			<dt>Pilgrim's Progress Homeschool Support Group</dt>
+			<dd>Duxbury, MA</dd>
+			<dt>Rooted In Grace</dt>
+			<dd>Brimfield, MA</dd>
+			<dt>Shepherd's Heart Home Schoolers</dt>
+			<dd>East Brookfield, MA</dd>
+			<dt>Southern Berkshire Homeschool Network</dt>
+			<dd>Great Barrington, MA</dd>
+			<dt>Wakefield Association of Teaching Christian Homes (WATCH)</dt>
+			<dd>Wakefield, MA</dd>
+			<dt>Western Mass Homeschoolers</dt>
+			<dd>Springfield, MA</dd>
+		</dl>
+	  </section>
 	</article>
 
     <footer>

@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>Contact</title>
+    <title>MassHOPE | Contact</title>
     <link rel= "stylesheet" href= "../assets/css/style.css">
 	<link rel= "stylesheet" href= "../assets/css/contact_style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -37,8 +37,6 @@
 		
 		<h1>Contact Us</h1>
 		<section>
-			<p id= "contact_para">Please do not hesitate to contact us using any of the three methods below. We would be happy to assist you with any questions you may have about anythign related to us or homes education.</p>
-		</section>
 		<div id= "contact_info">
 			<section class= "contact_block">
 				<h2>By Telephone</h2>

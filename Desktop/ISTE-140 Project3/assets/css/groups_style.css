@@ -1,18 +1,24 @@
-#vendor_list {
+#group_list {
     font-size:1em;
     list-style-type:none;
     }
-#vendor_list li a {
-    color:#01172F;
+#group_list dt {
+    color:#0E6BA8;
+    font-weight:bold;
+    font-size:1.2em;
     }
 
-#vendor_list li a:hover {
+#group_list li a:hover {
     color:#0E6BA8;
     }
+
+#group_para {
+    padding:15px;
+}
     
-.vendor_info {
+.group_info {
     display:block;
-    height:65%;
+    height:60%;
     width:600px;
     background-color:rgba(242, 245, 247,.85);
     padding:50px;
@@ -20,11 +26,7 @@
     margin:50px;
     }
 
-#vendor_para {
-    padding:15px;
-}
-
-#vendor_des {
+#group_des {
     display:block;
     font-size:1.2em;
     width:600px;
@@ -34,7 +36,7 @@
     top:50px;
     }
 
-#vendor_des h1 {
+#group_des h1 {
     font-size:2em;
     text-align:center;
     font-weight:bold;

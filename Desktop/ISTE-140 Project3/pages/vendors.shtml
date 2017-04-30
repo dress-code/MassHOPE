@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>Vendors</title>
+    <title>MassHOPE | Vendors</title>
     <link rel="stylesheet" href= "../assets/css/style.css">
 	<link rel="stylesheet" href= "../assets/css/vendor_style.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -36,8 +36,8 @@
     
     <article>
 	  <section id= "vendor_des">
-		<h1>Vendors</h1>
-		<p>Wondering if a specific vendor will be at MassHOPE's convention this year? Look no further! All of our vendors are listed here on this page. Click on the names of the vendors to go to their websites.</p>
+		<h1>VENDORS</h1>
+		<p id= "vendor_para">Wondering if a specific vendor will be at MassHOPE's convention this year? Look no further! All of our vendors are listed here on this page. Click on the names of the vendors to go to their websites.</p>
 	  </section>
 	  <section class= "vendor_info">
         <ul id= "vendor_list">
