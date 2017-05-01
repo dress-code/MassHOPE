@@ -117,8 +117,8 @@
     align-content:center;
     padding-right:50px;
     padding-left:50px;
-    padding-top:150px;
-    padding-bottom:75px;
+    padding-top:0px;
+    padding-bottom:0px;
     width:65vw;
     height:100vh;
     margin:auto;
@@ -253,7 +253,7 @@
     }   
 }
 
-@media screen and (max-width:900px)
+@media screen and (max-width:1200px)
 {
 #front_page_info {
     display:flex;
@@ -262,14 +262,13 @@
     align-content:center;
     padding-right:50px;
     padding-left:50px;
-    padding-top:0px;
-    padding-bottom:0px;
+    padding-top:150px;
+    padding-bottom:75px;
     width:65vw;
     height:100vh;
     margin:auto;
-    overflow:scroll;
 }
-
+    
 .info_block_head {
     display:block;
     text-align:center;
@@ -305,7 +304,7 @@
 #welcome_header {
     font-size:1.4em;  
     }
- 
+    
 #welcome_block {
     display:block;
     height:200px;
@@ -320,7 +319,7 @@
     color:#000000;
     border-radius:0% 100% 100% 100%;
     }
-
+ 
 #convention_header {
     display:block;
     text-align:center;
@@ -396,5 +395,5 @@
   
 #amazonImage{
 	max-width:100%;
-    }
+    }   
 }
