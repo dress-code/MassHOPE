@@ -10,7 +10,12 @@
   </head>
   <body>
   		<header>
-					<!--#include virtual="./pages/inc/header.html" -->
+					<section id= "logo_sec">
+						<img id= "logo" src="./assets/images/MassHOPE_logo.png" alt="MassHOPE's logo">
+					</section>
+					<section id= "header_name">
+						<h1>The Massachusetts Homeschool Organization of Parent Educators</h1>
+					</section>
   		</header>
 			
 			<section id= "nav_location_bar">
@@ -82,7 +87,33 @@
 		</article>
 		
 		<footer>
-			<!--#include virtual="./pages/inc/footer.html" -->
+			<section class="footer_block">
+				<h3>Important Links:</h3>
+				<ul class="footer_links">
+					<li><a href="https://www.hslda.org">HSLDA</a></li>
+					<li><a href="https://www.nheri.org">NHERI</a></li>
+					<li><a href= "https://www.homeschoolfoundation.org">The Homeschool Foundation</a></li>
+					<li><a href= "http://www.parentalrights.org">parentalrights.org</a></li>
+				</ul>
+			</section>
+		
+			<section class= "footer_block">
+				<h3>Neighboring State Organizations:</h3>
+				<ul class="footer_links">
+						<li><a href= "https://www.leah.org">LEAH (New York)</a></li>
+						<li><a href= "https://www.teachct.org">TEACH (Connecticut)</a></li>
+						<li><a href="http://chenh.org">CHENH (New Hampshire)</a></li>
+						<li><a href= "https://www.homeschoolersofmaine.org">Homeschoolers of Maine</a></li>
+				</ul>
+			</section>
+			
+			<section class= "footer_block">
+				<h3>Follow Us:</h3>
+				<ul class= "footer_links">
+						<li><a href= "https://www.facebook.com/MassHOPE/"><img src= "./assets/images/facebook.png" alt= "facebook"></a></li>
+						<li><a href= "https://twitter.com/masshope"><img src= "./assets/images/twitter.png"></a></li>
+				</ul>
+			</section>
 		</footer>
 		<script>
 				function conBlockOn()

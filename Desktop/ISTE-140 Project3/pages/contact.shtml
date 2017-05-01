@@ -56,6 +56,10 @@
 					<dd>exhibithall@masshope.org</dd>
 					<dt>Volunteers</dt>
 					<dd>volunteer@masshope.org</dd>
+					<dt>Networking</dt>
+					<dd>networking@masshope.org</dd>
+					<dt>Graduation</dt>
+					<dd>graduation@masshope.org</dd>
 					<dt id= "close" onmousedown= "hide(email);">Click to close</dt>
 				</dl>
 			</section>
