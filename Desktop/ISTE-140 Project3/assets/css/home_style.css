@@ -117,12 +117,11 @@
     align-content:center;
     padding-right:50px;
     padding-left:50px;
-    padding-top:0px;
-    padding-bottom:0px;
+    padding-top:150px;
+    padding-bottom:75px;
     width:65vw;
     height:100vh;
     margin:auto;
-    overflow:scroll;
 }
     
 .info_block_head {

@@ -250,8 +250,9 @@ article {
     padding-bottom:0px;
     width:65vw;
     height:100vh;
-    margin:auto;
     background-color: rgba(242,245,247,.50);
+    margin:auto;
+    overflow:scroll;
     }
     
 .info_block_head {
