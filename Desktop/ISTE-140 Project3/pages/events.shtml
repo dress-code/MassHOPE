@@ -20,20 +20,7 @@
 				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "./events.shtml">Events</a></p>
 	</section>
 	
-	<aside>
-        <dl>
-			<dt><a href= "../index.shtml"><img src="../assets/images/home.png" alt="home"></a></dt>	
-			<dd><a href= "../index.shtml">Home</a></dd>    
-			<dt><a href= "#"><img src="../assets/images/events.png" alt="events"> </a></dt>
-			<dd><a href= "#">Events</a></dd>
-			<dt><a href= "./info.shtml"><img src="../assets/images/info.png" alt="info"></a></dt>
-			<dd><a href= "./info.shtml">Info</a></dd>
-			<dt><a href= "./contact.shtml"><img src="../assets/images/contact.png" alt="contact"></a></dt>
-			<dd><a href= "./contact.shtml">Contact</a></dd>
-			<dt><a href= "./groups.shtml"><img src="../assets/images/groups.png" alt="groups"></a></dt>
-			<dd><a href= "./groups.shtml">Groups</a></dd>
-		</dl>
-    </aside>
+	<!--#include virtual="./inc/sideNav.html" -->
     
     <article>
 		<div id= "events">
@@ -104,6 +91,12 @@
 						document.getElementById("ucs").style.display = "none";
 						document.getElementById("ucs_header").style.display = "block";
 					
+				}
+				function menu_toggle()
+				{
+						document.getElementById("menu").style.display = "block";
+						document.getElementById("menu").style.backgroundColor = "#01172F";
+						document.getElementById("menu_icon").style.display = "none";
 				}
 	</script>
 
