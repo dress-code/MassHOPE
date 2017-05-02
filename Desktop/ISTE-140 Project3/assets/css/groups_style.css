@@ -18,13 +18,17 @@
     
 .group_info {
     display:block;
-    height:60%;
+    height:50vh;
     width:600px;
     background-color:rgba(242, 245, 247,.85);
     padding:50px;
     overflow:scroll;
     margin:50px;
     }
+    
+::-webkit-scrollbar-thumb {
+	background-color:#000000;
+}
 
 #group_des {
     display:block;

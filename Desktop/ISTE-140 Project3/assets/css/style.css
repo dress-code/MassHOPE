@@ -6,7 +6,7 @@
   }
 header {
     margin:0px;
-    height:110px;
+    height:11vh;
     width:100vw;
     background-color:#01172F;
     color:#FFFFFF;
@@ -45,7 +45,7 @@ header {
     
 #nav_location_bar {
     margin:0px;
-    height:20px;
+    height:2vh;
     width:100vw;
     background-color:rgb(242,245,247);
     color:#000000;
@@ -113,9 +113,14 @@ article {
     font-weight:normal;
 }
 
-aside {
+#menu_icon {
+    display:none;
+}
+
+#menu {
+    display:block;
     position:fixed;
-    top:150px;
+    top:15.6vh;
     right:50px;
     left:0;
     padding-top:60px;
@@ -125,14 +130,14 @@ aside {
     height:375px;
     background-color: rgba(242,245,247,.85);
     }
-aside dt {
+#menu dt {
     text-align:center;
     padding-left:20px;
     padding-right:20px;
     padding-top:5px;
     padding-bottom:5px;
     }
-aside dd {
+#menu dd {
     font-size:.80em;
     text-align:center;
     padding-left:10px;
@@ -218,7 +223,7 @@ header {
     
 #nav_location_bar {
     margin:0px;
-    height:20px;
+    height:2vh;
     width:100vw;
     background-color:rgb(242,245,247);
     color:#000000;
@@ -252,7 +257,6 @@ article {
     height:100vh;
     background-color: rgba(242,245,247,.50);
     margin:auto;
-    overflow:scroll;
     }
     
 .info_block_head {
@@ -287,9 +291,14 @@ article {
     font-weight:normal;
 }
 
-aside {
+#menu_icon {
+    display:none;
+}
+
+#menu {
+    display:block;
     position:fixed;
-    top:150px;
+    top:15.6vh;
     right:50px;
     left:0;
     padding-top:60px;
@@ -299,20 +308,177 @@ aside {
     height:375px;
     background-color: rgba(242,245,247,.85);
     }
-aside dt {
+#menu dt {
     text-align:center;
     padding-left:20px;
     padding-right:20px;
     padding-top:5px;
     padding-bottom:5px;
     }
-aside dd {
+#menu dd {
     font-size:.80em;
     text-align:center;
     padding-left:10px;
     padding-right:10px;
     padding-bottom:10px;
     }
+    
+a {
+    text-decoration:none;
+    color:#0E6BA8;
+    font-weight:bold;
+  }
+a:hover {
+    color:#5C96BC;
+}
+               
+footer {
+	margin:0px;
+	width:100vw;
+    height:15vh;
+	background-color:#01172F;
+	color:#0E6BA8;
+	padding:10px;
+    font-size:.75em;
+	text-align:center;
+	}
+	   
+.footer_links {
+	padding:10px;
+	list-style:none;
+	}
+
+.footer_links li{
+	padding:2.5px;
+	}
+
+.footer_block {
+	display:block;
+    float:left;
+	width:30%;
+	text-align:center;
+	padding-right:1.6%;
+	padding-left:1.6%;
+	padding-top:10px;
+	padding-bottom:10px;
+    }
+}
+
+@media screen and (max-width:900px)
+{
+    * {
+    margin:0px;
+    padding:0px;
+  }
+header {
+    margin:0px;
+    height:11vh;
+    width:100vw;
+    background-color:#01172F;
+    color:#FFFFFF;
+    font-size:1.5em;
+    padding-top:15px;
+    padding-bottom:10px;
+    }
+    
+#logo_sec {
+   width:33.3vw;
+   text-align:center;
+   margin-left:33.3vw;
+   margin-right:33.3vw;
+}
+
+#logo {
+    max-height:11vh;
+}
+
+#header_name {
+    display:none;
+}
+
+#header_name h1 {
+    display:none;
+}
+    
+#nav_location_bar {
+    margin:0px;
+    height:2vh;
+    width:100vw;
+    background-color:rgb(242,245,247);
+    color:#000000;
+    font-size:.8em;
+    padding-left:15px;
+    }
+    
+#nav_location_bar p {
+    padding-left:15px;
+    }
+    
+#nav_location_bar a {
+    text-decoration:underline;
+    }
+
+body {
+    background-color:#0E6BA8;
+    font-family:"Quicksand", sans-serif;
+    }
+
+article {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:center;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:0px;
+    padding-bottom:0px;
+    width:65vw;
+    height:100vh;
+    background-color: rgba(242,245,247,.50);
+    margin:auto;
+    }
+    
+.info_block_head {
+    display:block;
+    text-align:center;
+    margin-top:100px;
+    margin-bottom:100px;
+    }
+    
+.info_block {
+    display:block;
+    height:250px;
+    width:250px;
+    margin-top:25px;
+    padding:50px;
+    margin-right:12.5px;
+    margin-left:12.5px;
+    text-align:left;
+    background-color:rgba(242, 245, 247,.85);
+    color:#000000;
+    border-radius:100% 100% 100% 100%;
+    transition:background .5s;
+    -webkit-transform:background .5s;
+    }
+    
+.info_block:hover {
+    background-color:#0E6BA8;
+    color:#F2F5F7;
+    }
+    
+.bubble_links {
+    font-weight:normal;
+}
+
+#menu_icon {
+    display:block;
+    position:fixed;
+    top:15.5vh;
+}
+
+#menu {
+    display:none;
+}
     
 a {
     text-decoration:none;

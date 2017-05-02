@@ -22,7 +22,11 @@
 				<p>You are here: <a href= "#">Home</a></p>
 			</section>
 		
-		<aside>
+		<nav>
+				<img id= "menu_icon" src= "./assets/images/menu_icon.png" alt= "Menu icon" onmousedown= "menu_toggle()">
+		</nav>
+		
+		<aside id= "menu">
 					<dl>
 							<dt><a href= "#"><img src="./assets/images/home.png" alt="home"></a></dt>	
 							<dd><a href= "#">Home</a></dd>    
@@ -176,6 +180,12 @@
 						document.getElementById("tvoh_header").style.display = "block";
 					
 				}
-	</script>
+				function menu_toggle()
+				{
+					document.getElementById("menu").style.display = "block";
+					document.getElementById("menu").style.backgroundColor = "#01172F";
+					document.getElementById("menu_icon").style.display = "none";
+				}
+ </script>
   </body>
 </html>
