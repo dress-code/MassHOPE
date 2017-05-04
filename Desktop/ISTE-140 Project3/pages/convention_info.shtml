@@ -4,8 +4,93 @@
 <head>
     <title>Convention Information</title>
     <link rel="stylesheet" href= "../assets/css/style.css">
-    <link rel="stylesheet" href= "../assets/css/con_info_style.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<style>
+		#con_info_video figcaption {
+		padding:5px;
+		text-align:center;
+		font-size:.8em;
+		}
+		#con_info_video {
+			margin-top:25px;
+		}
+		#hotels {
+		width:100%;
+		height:100%;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+		align-content:center;
+				
+		}
+		.hotel_block {
+		height:350px;
+		width:250px;
+		padding:15px;
+		font-size:1em;
+		background-color:rgba(242,245,247,.80);
+		margin:25px;
+		text-align:center;
+		}
+		.hotel_des {
+			display:block;
+			height:25%;
+			
+		}
+		.hotel_name {
+		font-size:1.85em;
+		text-align:center;
+		margin-top:10px;
+		margin-bottom:10px;
+		font-weight:bold;
+		display:block;
+		height:20%;
+		}
+		.hotel_block ul {
+		display:block;
+		text-align:left;
+		padding:25px;
+		height:30%;
+		}
+		.section_header {
+		display:block;
+		width:100vw;
+		font-size:2.75em;
+		padding-top:25px;
+		padding:15px;
+		text-align:center;
+		border-bottom:1px solid;
+		font-weight:normal;
+		}
+		#volunteering {
+			padding:25px;
+			height:100%;
+		}
+		#teens_info {
+			display:block;
+			height:125px;
+			width:100%;
+			text-align:center;
+			font-size:2.5em;
+			font-weight:lighter;
+			margin:25px;
+			padding:50px;
+		}
+		#childrens_info {
+			display:block;
+			height:125px;
+			width:100%;
+			text-align:center;
+			font-size:2.5em;
+			font-weight:light;
+			margin:25px;
+			padding:50px;
+		}
+		#intro {
+			font-size:1.5em;
+		}
+		
+	</style>
 </head>
 
 <body>
@@ -23,10 +108,113 @@
 	<!--#include virtual="./inc/sideNav.html" -->
     
     <article>
+		<h1 class= "section_header">CONVENTION INFORMATION</h1>
+		<p id= "intro">If you do not see the information you are looking for here, please do not hesitate to <a href= "./contact.shtml">contact us.</a></p>
         <figure id= "con_info_video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/chLb1gUhEoI" frameborder="0" allowfullscreen></iframe>
             <figcaption>A time lapse of the 2013 convention.</figcaption>
         </figure>
+		
+		<h1 class= "section_header">TEEN TRACK</h1>
+		<p id= "teens_info">Sorry, we don't have details for the 2018 teen track yet. Please check back soon!</p>
+		
+		<h1 class= "section_header">CHILDREN'S PROGRAM</h1>
+		<p id= "childrens_info">Sorry, we don't have details for the 2018 children's program yet. Please check back soon!</p>
+		
+		<h1 class= "section_header">HOTELS</h1>
+		
+		<section id= "hotels">
+			<div class= "hotel_block">
+				<h1 class= "hotel_name">Courtyard by Marriott</h1>
+				<p class= "hotel_des">72 Grove Street
+					<br>Worcester, Mass.
+					<br>508-363-0300
+					<br>$159/night
+				</p>
+				<ul>
+					<li>Free parking</li>
+					<li>Free Wi-Fi</li>
+					<li>Indoor pool</li>
+					<li>Exercise room</li>
+					<li>Free shuttle to DCU Center upon request</li>
+				</ul>
+			</div>
+			<div class= "hotel_block">
+				<h1 class= "hotel_name">Hampton Inn & Suites</h1>
+				<p class= "hotel_des">65 Prescott Street
+					<br>Worcester, Mass.
+					<br>508-886-9005
+					<br>$159/night
+				</p>
+				<ul>
+					<li>Free parking</li>
+					<li>Free Wi-Fi</li>
+					<li>Indoor pool</li>
+					<li>Continental breakfast</li>
+					<li>Exercise room</li>
+					<li>Shuttle to DCU Center (upon request)</li>
+				</ul>
+			</div>
+			<div class= "hotel_block">
+				<h1 class= "hotel_name">Hilton Garden Inn</h1>
+				<p class= "hotel_des">35 Major Taylor Boulevard
+					<br>Worcester, Mass.
+					<br>508-753-5700
+					<br>$121/night
+				</p>
+				<ul>
+					<li>Indoor pool</li>
+					<li>Exercise room</li>
+				</ul>
+			</div>
+			<div class= "hotel_block">
+				<h1 class= "hotel_name">Holiday Inn Express</h1>
+				<p class= "hotel_des">10-12 Johnson Street
+					<br>Auburn, Mass.
+					<br>508-832-2500
+					<br>$138/night
+				</p>
+				<ul>
+					<li>Free parking</li>
+					<li>Free Wi-Fi</li>
+					<li>Free hot/cold buffet breakfast</li>
+				</ul>
+			</div>
+			<div class= "hotel_block">
+				<h1 class= "hotel_name">Holiday Inn Express</h1>
+				<p class= "hotel_des">110 Summer Street
+					<br>Worcester, Mass.
+					<br>508-757-0400
+					<br>$133/night
+				</p>
+				<ul>
+					<li>Free parking</li>
+					<li>Free Wi-Fi</li>
+					<li>Free hot breakfast bar</li>
+					<li>Free shuttle to DCU Center upon request</li>
+				</ul>
+			</div>
+			<div class= "hotel_block">
+				<h1 class= "hotel_name">Residence Inn</h1>
+				<p class= "hotel_des">503 Plantation Street
+					<br>Worcester, Mass.
+					<br>508-753-6300
+					<br>$138/night (studio or 1 bedrrom suites)
+				</p>
+				<ul>
+					<li>Free parking</li>
+					<li>Free Wi-Fi</li>
+					<li>Free deluxe breakfast</li>
+					<li>Free shuttle to DCU Center upon request</li>
+				</ul>
+			</div>
+		</section>
+		
+		<h1 class= "section_header">VOLUNTEERING</h1>
+		
+		<section id= "volunteering">
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScH9uHnm_Iud7XT2h-fDRjru-GnFir6V9TPcqGas1T7kPSG5g/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+		</section>
     </article>
 	
 	<footer>

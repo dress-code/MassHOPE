@@ -5,6 +5,23 @@
     <title>MasHOPE | Register</title>
     <link rel="stylesheet" href= "../assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<style>
+		#registration {
+			height:750px;
+			width:100vw;
+			text-align:center;
+		}
+		#registration p {
+			display:block;
+			margin-top:25%;
+			margin-bottom:25%;
+			font-size:2em;
+			font-weight:bold;
+		}
+		#go_back {
+			text-decoration:underline;
+		}
+	</style>
 </head>
 
 <body>
@@ -22,7 +39,9 @@
 	<!--#include virtual="./inc/sideNav.html" -->
     
     <article>
-        <p>Sorry, online registration for the 2017 convention has closed. You can still register onsite at any point during the weekend. <br>Please keep in mind that the children's program is at maximum capacity. <br><a href= "./convention.shtml">Go back.</a></p>   
+		<section id= "registration">
+        <p>Sorry, online registration for the 2018 convention has not opened yet. Please check back soon. <a id= "go_back" href= "./convention.shtml">Go back.</a></p>
+		</section>
     </article>
 	
 	<footer>

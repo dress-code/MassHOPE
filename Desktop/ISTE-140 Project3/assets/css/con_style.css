@@ -58,11 +58,22 @@
     margin-top:50px;
     margin-bottom:50px;
     }
+    
+#convention_bubbles {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:center;
+    height:100%;
+    width:65vw;
+    margin-top:50px;
+    margin-bottom:50px;
+    }
 }
 
 @media screen and (max-width:2000px)
 {
-   #speakers_header {
+#speakers_header {
     display:block;
     text-align:center;
     font-size:1.4em;
@@ -119,6 +130,90 @@
     font-size:.9em;
     margin-top:25px;
     margin-bottom:25px;
+    }
+    
+#convention_bubbles {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:center;
+    height:100%;
+    width:65vw;
+    margin-top:250px;
+    margin-bottom:250px;
+    }
+}
+
+@media screen and (max-width:1200px)
+{
+#speakers_header {
+    display:block;
+    text-align:center;
+    font-size:1.4em;
+    margin-top:60px;
+    margin-bottom:50px;
+    }
+
+#speakers {
+    display:none;
+    font-size:.9em;
+    margin-top:25px;
+    margin-bottom:25px;
+    }
+
+#vendors_header {
+    display:block;
+    text-align:center;
+    font-size:1.4em;
+    margin-top:60px;
+    margin-bottom:50px;
+    }
+
+#vendors {
+    display:none;
+    font-size:.9em;
+    margin-top:25px;
+    margin-bottom:25px;
+    }
+    
+#register_header {
+    display:block;
+    text-align:center;
+    font-size:1.4em;
+    margin-top:60px;
+    margin-bottom:50px;
+    }
+
+#register {
+    display:none;
+    font-size:.9em;
+    margin-top:25px;
+    margin-bottom:25px;
+    }
+#gen_info_header {
+    display:block;
+    text-align:center;
+    font-size:1.4em;
+    margin-top:60px;
+    margin-bottom:50px;
+    }
+
+#gen_info {
+    display:none;
+    font-size:.9em;
+    margin-top:25px;
+    margin-bottom:25px;
+    }
+    
+#convention_bubbles {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:center;
+    height:100%;
+    width:65vw;
+    margin-top:50px;
+    margin-bottom:50px;
     }
 }
 

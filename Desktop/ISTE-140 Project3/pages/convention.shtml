@@ -22,6 +22,7 @@
     <!--#include virtual="./inc/sideNav.html" -->
     
     <article>
+		<section id= "convention_bubbles">
         <a class= "bubble_links" href= "./speakers.shtml" onmouseover= "speakerBlockOn();" onmouseout= "speakerBlockOff();">
 			<div class= "info_block">
 			 	<h2 id="speakers_header">SPEAKERS</h2>
@@ -58,6 +59,7 @@
 				</p>
 			</div>
 		</a>
+		</section>
     </article>
     
     <footer>
