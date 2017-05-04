@@ -11,7 +11,7 @@
     padding-top:0px;
     padding-bottom:0px;
     width:65vw;
-    height:100vh;
+    height:100%;
     margin:auto;
 }
 
@@ -116,10 +116,10 @@
     align-content:center;
     padding-right:50px;
     padding-left:50px;
-    padding-top:0px;
-    padding-bottom:0px;
+    padding-top:50px;
+    padding-bottom:50px;
     width:65vw;
-    height:100vh;
+    height:100%;
     margin:auto;
 }
     
@@ -136,7 +136,7 @@
     margin-right:12.5px;
     margin-left:12.5px;
     text-align:left;
-    font-size:.9em;
+    font-size:1em;
     background-color:rgba(242, 245, 247,.85);
     color:#000000;
     border-radius:0% 100% 100% 100%;
@@ -152,8 +152,8 @@
 
 #convention {
     display:none;
-    font-size:.9em;
-    margin-top:25px;
+    font-size:1em;
+    margin-top:15px;
     margin-bottom:25px;
     }
   
@@ -167,8 +167,8 @@
 
 #messenger {
     display:none;
-    font-size:.9em;
-    margin-top:25px;
+    font-size:1em;
+    margin-top:15px;
     margin-bottom:25px;
     }
   
@@ -182,8 +182,8 @@
 
 #tvoh {
     display:none;
-    font-size:.9em;
-    margin-top:25px;
+    font-size:1em;
+    margin-top:15px;
     margin-bottom:25px;
     }
   
@@ -197,8 +197,8 @@
 
 #event {
     display:none;
-    font-size:.9em;
-    margin-top:25px;
+    font-size:1em;
+    margin-top:15px;
     margin-bottom:25px;
     }
   
@@ -210,8 +210,8 @@
 
 #amazon{
     display:none;
-    font-size:.9em;
-    margin-top:25px;
+    font-size:1em;
+    margin-top:15px;
     margin-bottom:25px;
     }
   
@@ -232,105 +232,9 @@
     padding-top:0px;
     padding-bottom:0px;
     width:65vw;
-    height:100vh;
+    height:100%;
     margin:auto;
 }
-    
-#welcome_header {
-    font-size:1.4em;  
-    }
-    
-#welcome_block {
-    display:block;
-    height:200px;
-    width:200px;
-    margin-top:25px;
-    padding:25px;
-    margin-right:12.5px;
-    margin-left:12.5px;
-    text-align:left;
-    font-size:.9em;
-    background-color:rgba(242, 245, 247,.85);
-    color:#000000;
-    border-radius:0% 100% 100% 100%;
-    }
- 
-#convention_header {
-    display:block;
-    text-align:center;
-    font-size:1.4em;
-    margin-top:60px;
-    margin-bottom:50px;
-    }
-
-#convention {
-    display:none;
-    font-size:.9em;
-    margin-top:25px;
-    margin-bottom:25px;
-    }
-  
-#messenger_header {
-    display:block;
-    text-align:center;
-    font-size:1.4em;
-    margin-top:60px;
-    margin-bottom:50px;
-    }
-
-#messenger {
-    display:none;
-    font-size:.9em;
-    margin-top:25px;
-    margin-bottom:25px;
-    }
-  
-#tvoh_header {
-    display:block;
-    text-align:center;
-    font-size:1.4em;
-    margin-top:60px;
-    margin-bottom:50px;
-    }
-
-#tvoh {
-    display:none;
-    font-size:.9em;
-    margin-top:25px;
-    margin-bottom:25px;
-    }
-  
-#event_header {
-    display:block;
-    text-align:center;
-    font-size:1.4em;
-    margin-top:60px;
-    margin-bottom:50px;
-    }
-
-#event {
-    display:none;
-    font-size:.9em;
-    margin-top:25px;
-    margin-bottom:25px;
-    }
-  
-#amazon_header {
-    display:block;
-    text-align:center;
-    margin:auto;
-    }
-
-#amazon{
-    display:none;
-    font-size:.9em;
-    margin-top:25px;
-    margin-bottom:25px;
-    }
-  
-#amazonImage{
-	max-width:100%;
-    }   
 }
 
 @media screen and (max-width:1000px)
@@ -342,12 +246,11 @@
     align-content:center;
     padding-right:50px;
     padding-left:50px;
-    padding-top:110px;
-    padding-bottom:0px;
+    padding-top:50px;
+    padding-bottom:50px;
     width:80vw;
-    height:87vh;
+    height:100%;
     margin:auto;
-    overflow:scroll;
 }
     
 #welcome_header {
@@ -363,7 +266,7 @@
     margin-right:12.5px;
     margin-left:12.5px;
     text-align:left;
-    font-size:.9em;
+    font-size:1em;
     background-color:rgba(242, 245, 247,.85);
     color:#000000;
     border-radius:0% 100% 100% 100%;
@@ -379,8 +282,8 @@
 
 #convention {
     display:none;
-    font-size:.9em;
-    margin-top:25px;
+    font-size:1em;
+    margin-top:15px;
     margin-bottom:25px;
     }
   
@@ -394,8 +297,8 @@
 
 #messenger {
     display:none;
-    font-size:.9em;
-    margin-top:25px;
+    font-size:1em;
+    margin-top:15px;
     margin-bottom:25px;
     }
   
@@ -409,8 +312,8 @@
 
 #tvoh {
     display:none;
-    font-size:.9em;
-    margin-top:25px;
+    font-size:1em;
+    margin-top:15px;
     margin-bottom:25px;
     }
   
@@ -424,8 +327,8 @@
 
 #event {
     display:none;
-    font-size:.9em;
-    margin-top:25px;
+    font-size:1em;
+    margin-top:15px;
     margin-bottom:25px;
     }
   
@@ -437,8 +340,8 @@
 
 #amazon{
     display:none;
-    font-size:.9em;
-    margin-top:25px;
+    font-size:1em;
+    margin-top:15px;
     margin-bottom:25px;
     }
   

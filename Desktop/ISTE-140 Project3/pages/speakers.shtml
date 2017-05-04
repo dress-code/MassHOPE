@@ -5,6 +5,37 @@
     <title>MassHOPE | Speakers</title>
 	<link rel= "stylesheet" href= "../assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<style>
+			#speakers {
+				width:100%;
+				height:100%;
+				display:flex;
+				flex-wrap:wrap;
+				justify-content:center;
+				align-content:center;
+				
+			}
+			.speaker_block {
+				height:300px;
+				width:300px;
+				font-size:1em;
+				background-color:rgba(242,245,247,.80);
+				margin:25px;
+			}
+			.speaker_des {
+				
+			}
+			.speaker_name {
+				font-size:1.85em;
+				text-align:center;
+				margin-top:10px;
+				margin-bottom:10px;
+			}
+			.speaker_image {
+				text-align:center;
+			}
+		
+	</style>
 </head>
 
 <body>
@@ -19,20 +50,187 @@
 	</section>
     
     <!--#include virtual="./inc/sideNav.html" -->
+	
      
     <article>
-            
-        <div class= "speaker_block">
-                Bill Jack.
-        </div>
+		<section id= "speakers">
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Mike Smith</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+					<img src= "../assets/images/speakers/mike_smith.jpg" alt= "Mike Smith" title= "Mike Smith, President of HSLDA">
+				</div>
+			</div>
              
-        <div class= "speaker_block">
-                Bill Jack.
-        </div>
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Steve Demme</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+					<img src= "../assets/images/speakers/steve_demme.jpg" alt= "Steve Demme" title= "Steve Demme, founder of Math-U-See">
+				</div>
+			</div>
               
-        <div class= "speaker_block">
-                Bill Jack.
-        </div>
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Brian Ray, Ph.D.</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+					<img src= "../assets/images/speakers/brian_ray.jpg" alt= "Brian Ray" title= "Brian Ray, founder of NHERI">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Sam Black</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+					<img src= "../assets/images/speakers/sam_black.jpg" alt= "Sam Black" title= "Sam Black, Internet Safety Consultant">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Rob Caprera</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+					<img src= "../assets/images/speakers/rob_caprera.jpg" alt= "Rob Caprera" title= "Rob Caprera, Attorney">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Tom Clark</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+					<img src= "../assets/images/speakers/tom_clark.jpg" alt= "Tom Clark" title= "Tom Clark, President of VideoText Interactive">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Kathy Dunfee</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Jenna Elliot</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Walt & Glenda Grayum</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Linda Lacour Hobar</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Kim Kautzer</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Peter Miller</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Betsy Ray</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Sonya Shafer</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Ben Siegler</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Mike Snavely</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Scott Turnasky & Joanne Miller</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Jay Wile</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+				</div>
+			</div>
+			
+			<div class= "speaker_block">
+                <div class= "speaker_des">
+					<h1 class= "speaker_name">Esther Wilkison</h1>
+					<p></p>
+				</div>
+				<div class= "speaker_image">
+				</div>
+			</div>
+		</section>
     </article>
 
      <footer>
