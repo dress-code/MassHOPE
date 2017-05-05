@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Project 3 Resources</title>
+	<link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<style>
+		#resources_cont {
+			height:100%;
+			width:100%;
+			display:flex;
+			flex-wrap:wrap;
+			justify-content:center;
+			align-content:center;
+			padding:25px;
+		}
+		.resources_sec {
+			display:block;
+			height:100%;
+			width:80%;
+			padding-right:50px;
+			padding-left:50px;
+			padding-top:15px;
+			padding-bottom:15px;
+			background-color:rgba(242,245,247,.8);
+			
+		}
+		.resources_sec dt {
+			font-weight:bold;
+			font-size:1.15em;
+			padding-top:5px;
+			padding-bottom:5px;
+		}
+		.header {
+			display:block;
+			width:100%;
+			height:75px;
+			text-align:center;
+			font-size:2em;
+			font-weight:bold;
+			padding-top:25px;
+		}
+		
+	</style>
+</head>
+
+<body>
+
+  <header>
+        <section class= "header_block">
+			<!--#include virtual="./inc/header.html" -->
+		</section>
+    </header>
+    
+    <section id= "nav_location_bar">
+				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= ".#">Resources</a></p>
+	</section>
+	
+	<!--#include virtual="./inc/sideNav.html" -->
+    
+    <article>
+		<section id= "resources_cont">
+			<h1 class= "header">RESOURCES</h1>
+			<dl class= "resources_sec">
+				<dt>MassHOPE Time Lapse Video</dt>
+				<dd>Property of Michael Caprera, used with permission. Linked from YouTube.</dd>
+				<dt>Information</dt>
+				<dd>All information on this website was provided by MassHOPE.</dd>
+				<dt>Code</dt>
+				<dd>All code was created from scratch by Anna Jacobsen.</dd>
+				<dt>Logo</dt>
+				<dd>The MassHOPE logo was created by Anna Jacobsen in Adobe Illustrator.</dd>
+				<dt>Speaker Images</dt>
+				<dd>Supplied by MassHOPE.</dd>
+				<dt>Forms</dt>
+				<dd>All forms created using Google Forms.</dd>
+			</dl>
+			<h1 class= "header">THOUGHTS & COMMENTS</h1>
+			<p class= "resources_sec">Even though this final project has been submitted and our semester is winding down, I will continue to edit this website afterwards. It is certainly not perfect, and I can point out specific flaws that I have with it.</p>
+			<ul class= "resources_sec">
+				<li>I need to provide a close option for the mobile menu. I simply ran out of time, but I know I am capable of this.</li>
+				<li>In general, I would like to make it more mobile friendly so that it looks good on mobile devices. I did use responsive web design, but that does not mean it actually displays well on mobile devices.</li>
+				<li>I wish I had chosen a better font for the site.</li>
+				<li>I would like to make it a bit more visually interesting. Perhaps a subtle background pattern. This would also make the semi-transparent elements more obviously slightly transparent.</li>
+				<li>My CSS files are too repetitive. I had not realized that larger media queries would inherit rules from the smaller ones unless overridden. I actually improved the messy CSS situation significantly before submitting in order to have fewer stylesheets.</li>
+				<li>I do not like my convention general information page. I like the hotel section, but I am not a fan of the headers.</li>
+			</ul>
+			<p class= "resources_sec">I would like to continue adding features to the site as I increase my knowledge about web development so that eventually my parents will end up with a professional website for their organization. It is the least I can do for their tireless effort
+			in homeschooling me for 12 years. As far as things that I believe I did well, I would say the following:</p>
+			<ul class= "resources_sec">
+				<li>Working with a "client". I spent Easter weekend at home discussing with my parents what the needs were for their website and running over potential design sketches with them. Having to work around an organization's needs was a much different experience
+			than just doing whatever I wanted.</li>
+				<li>The sheer amount of time I put into this project outweighs my other projects by far. Revision after revision pushed to GitHub. This was more a labor of love than a final project.</li>
+				<li>Responsive web design. Took me a while to get it right, but in the end I feel like I got pretty close.</li>
+				<li>Experimenting with new shapes and visual events. Working with circles and showing/hiding elements with JavaScript was an interesting experience, and in the end I think I got it pretty well.</p>
+			</ul>
+			
+		</section>
+    </article>
+	
+	<footer>
+        <!--#include virtual="./inc/footer.html" -->
+    </footer>
+
+	<script>
+		function menu_toggle()
+			{
+				document.getElementById("menu").style.display = "block";
+				document.getElementById("menu").style.backgroundColor = "#01172F";
+				document.getElementById("menu_icon").style.display = "none";
+			}
+	</script>
+
+</body>
+</html>

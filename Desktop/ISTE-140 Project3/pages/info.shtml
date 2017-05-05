@@ -5,6 +5,39 @@
     <title>MassHOPE | Info</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<style>
+		#masshope_about {
+			width:80%;
+			height:100%;
+			padding:25px;
+			display:flex;
+			flex-wrap:wrap;
+			justify-content:center;
+			align-content:center;
+			background-color:rgba(242,245,247,.8);
+		}
+		#about_header {
+			font-size:2em;
+			font-weight:bold;
+			padding:25px;
+			width:100%;
+		}
+		.about_para {
+			display:block;
+			padding:25px;
+		}
+		.sec_header {
+			font-size:1.25em;
+			font-weight:bold;
+			padding-left:25px;
+			padding-right:25px;
+			width:100%;
+			border-bottom:1px solid;
+		}
+		.info_list {
+			padding:15px;
+		}
+	</style>
 </head>
 
 <body>
@@ -16,13 +49,44 @@
     </header>
     
     <section id= "nav_location_bar">
-				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "#">Info</a>
+				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "#">Info</a></p>
 	</section>
 	
 	<!--#include virtual="./inc/sideNav.html" -->
     
     <article>
-        <p>This is where the info about MassHOPE will go.</p>   
+       <section id= "masshope_about">
+			<h1 id= "about_header">ABOUT MASSHOPE</h1>
+			<p class= "about_para">Founded in 1988, MassHOPE is a nonprofit corporation dedicated its purpose of "promoting and safeguarding home education to the glory of God".
+			MassHOPE assists parents in understanding and fulfilling the homeschooling laws of Massachusetts.  We suppport and encourage homeschooling families
+			through various activities and events such as our annual convention, used curriculum sale, and graduation. Additionally, we provide a network of support groups
+			and communications such as our newsletter, "The Voice of Hope", and legislative "e-lerts" as needed.</p>
+			<h2 class= "sec_header">BOARD OF DIRECTORS</h2>
+			<ul class= "info_list">
+				<li>Rob & Julie Caprera</li>
+				<li>Bob & Susan Jacobsen</li>
+				<li>Malcolm & Kathy Lillie</li>
+				<li>Ed & Anne Smith</li>
+			</ul>
+			<h2 class= "sec_header">STATEMENT OF FAITH</h2>
+			<h3>We believe:</h3>
+			<ul class= "info_list">
+				<li>The Bible to be the inspired Word of God, the supreme and final authority for all faith and life.</li>
+				<li>That there is one God, eternally existent in three persons: Father, Son, and Holy Spirit.</li>
+				<li>In the Deity of our Lord Jesus Christ, His virgin birth, His sinless life, His miracles, His vicarious and
+				atoning death through the shed blood on the cross, His bodily resurrection, His ascension, and His imminent bodily return in power and glory.</li>
+				<li>That man was created in the image of God, but fell into sin and is therefore lost, and only those who put their faith in Jesus Christ alone, not
+				trusting in any personal works whatsoever, can be saved.</li>
+				<li>That salvation is the free gift of God brought to the sinner by grace and received by personal faith in the Lord Jesus Christ, whose substitutionary
+				death on the cross paid the penalty for man's sin.</li>
+				<li>That the ministry of the Holy Spirit is to convict mankind, indwell, guide, instruct and empower the believer for Godly living and service.</li>
+				<li>That the God of the Bible established marriage as the exclusive lifetime covenant of union between one man and one woman.  It is His unique gift that
+				echoes the union of Christ and His church, and is the ideal environment that He has ordained for procreation and for the raising of children in the
+				nurture and admonition of the Lord to the glory of God.</li>
+				<li>In the spiritual unity of believers through our common faith in the Lord Jesus Christ, and that individual doctrinal differences which may exist,
+				outside the aforementioned, should not hinder the unity of Christian home educators.</li>
+			</ul>
+	   </section>
     </article>
 	
 	<footer>

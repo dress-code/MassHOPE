@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>MassHOPE | Graduation</title>
+	<link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<style>
+		#grad_info {
+			width:80%;
+			height:100%;
+			padding:25px;
+			display:flex;
+			flex-wrap:wrap;
+			justify-content:center;
+			align-content:center;
+			background-color:rgba(242,245,247,.8);
+		}
+		#grad_para {
+			display:block;
+			padding:25px;
+			
+		}
+		#grad_header {
+			padding:25px;
+			font-weight:bold;
+			font-size:2em;
+			width:100%;
+		}
+		#email {
+			font-weight:bold;
+		}
+		#cake {
+			height:90%;
+			width:90%;
+		}
+	</style>
+</head>
+
+<body>
+
+   <header>
+        <section class= "header_block">
+			<!--#include virtual="./inc/header.html" -->
+		</section>
+    </header>
+    
+    <section id= "nav_location_bar">
+				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "./events.shtml">Events</a> > <a href= "#">Graduation</a></p>
+	</section>
+	
+	<!--#include virtual="./inc/sideNav.html" -->
+    
+    <article>
+		<section id= "grad_info">
+			<h1 id= "grad_header">GRADUATION</h1>
+			<p id= "grad_para">Do you have a homeschooled student graduating this year? The annual formal graduation will be held on June 10th, 2017 at Holden Chapel in Holden, Massachusetts.
+			This cap and gown event gives Massachusetts homeschool families the opportunity to honor the achievments of their students. Graduates receive a diploma and a rose to give to their mother.
+			The ceremony is followed by a cake reception. Please contact Susan Jacobsen at <span id= "email">graduation@masshope.org</span> for more information.</p>
+			<img id= "cake" src= "../assets/images/cake.jpg" alt= "Graduation cake picture" title= "A cake from the reception following the ceremony.">
+		</section>
+    </article>
+	
+	<footer>
+        <!--#include virtual="./inc/footer.html" -->
+    </footer>
+
+	<script>
+		function menu_toggle()
+			{
+				document.getElementById("menu").style.display = "block";
+				document.getElementById("menu").style.backgroundColor = "#01172F";
+				document.getElementById("menu_icon").style.display = "none";
+			}
+	</script>
+
+</body>
+</html>

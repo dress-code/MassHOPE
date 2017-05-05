@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>MassHOPE | UCS</title>
+	<link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<style>
+			#ucs_info {
+				width:80%;
+				height:100%;
+				padding:25px;
+				display:flex;
+				flex-wrap:wrap;
+				justify-content:center;
+				align-content:center;
+				background-color:rgba(242,245,247,.8);
+			}
+			#ucs_para {
+				display:block;
+				padding:25px;
+				
+			}
+			#ucs_header {
+				padding:25px;
+				font-weight:bold;
+				font-size:2em;
+				width:100%;
+			}
+			#email {
+				font-weight:bold;
+			}
+			#ucs {
+				height:90%;
+				width:90%;
+			}
+			#image_sec {
+				text-align:center;
+			}
+	</style>
+</head>
+
+<body>
+
+    <header>
+        <section class= "header_block">
+			<!--#include virtual="./inc/header.html" -->
+		</section>
+    </header>
+    
+    <section id= "nav_location_bar">
+				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "./events.shtml">Events</a> > <a href= "#">UCS</a></p>
+	</section>
+	
+	<!--#include virtual="./inc/sideNav.html" -->
+    
+    <article>
+        <section id= "ucs_info">
+			<h1 id= "ucs_header">USED CURRICULUM SALE</h1>
+			<p id= "ucs_para">Are you shopping for curriculum for next school year, or do you have unused books hanging around your house?
+			Get your curriculum for a lower price or make some extra money by checking out our annual used curriculum sale on June 17th, 2017 at Chapel of the Cross
+			in Westborough, MA! Each year, MassHOPE's UCS facilitates the exchange of thousands of books ranging from science curriculum to Nancy Drew.
+			There are books for everyone in your family! To register as a seller, please contact <span id= "email">info@masshope.org</span> for more information.</p>
+			<figure id= "image_sec">
+				<img id= "ucs" src= "../assets/images/ucs.jpg" alt= "UCS 2013" title= "Set-up for the 2013 UCS.">
+				<figcaption>Set-up for the 2013 Used Curriculum Sale</figcaption>
+			</figure>
+		</section>  
+    </article>
+	
+	<footer>
+        <!--#include virtual="./inc/footer.html" -->
+    </footer>
+
+	<script>
+		function menu_toggle()
+			{
+				document.getElementById("menu").style.display = "block";
+				document.getElementById("menu").style.backgroundColor = "#01172F";
+				document.getElementById("menu_icon").style.display = "none";
+			}
+	</script>
+
+</body>
+</html>

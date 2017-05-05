@@ -54,37 +54,19 @@
 		}
 		.section_header {
 		display:block;
+		height:50px;
 		width:100vw;
 		font-size:2.75em;
-		padding-top:25px;
 		padding:15px;
 		text-align:center;
 		border-bottom:1px solid;
 		font-weight:normal;
 		}
 		#volunteering {
+			width:100vw;
 			padding:25px;
-			height:100%;
-		}
-		#teens_info {
-			display:block;
-			height:125px;
-			width:100%;
+			height:750px;
 			text-align:center;
-			font-size:2.5em;
-			font-weight:lighter;
-			margin:25px;
-			padding:50px;
-		}
-		#childrens_info {
-			display:block;
-			height:125px;
-			width:100%;
-			text-align:center;
-			font-size:2.5em;
-			font-weight:light;
-			margin:25px;
-			padding:50px;
 		}
 		#intro {
 			font-size:1.5em;
@@ -114,12 +96,6 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/chLb1gUhEoI" frameborder="0" allowfullscreen></iframe>
             <figcaption>A time lapse of the 2013 convention.</figcaption>
         </figure>
-		
-		<h1 class= "section_header">TEEN TRACK</h1>
-		<p id= "teens_info">Sorry, we don't have details for the 2018 teen track yet. Please check back soon!</p>
-		
-		<h1 class= "section_header">CHILDREN'S PROGRAM</h1>
-		<p id= "childrens_info">Sorry, we don't have details for the 2018 children's program yet. Please check back soon!</p>
 		
 		<h1 class= "section_header">HOTELS</h1>
 		
@@ -213,7 +189,7 @@
 		<h1 class= "section_header">VOLUNTEERING</h1>
 		
 		<section id= "volunteering">
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScH9uHnm_Iud7XT2h-fDRjru-GnFir6V9TPcqGas1T7kPSG5g/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScH9uHnm_Iud7XT2h-fDRjru-GnFir6V9TPcqGas1T7kPSG5g/viewform?embedded=true" width="80%" height="80%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 		</section>
     </article>
 	

@@ -28,7 +28,7 @@
 				<div class= "info_block">
 					<h2 id="convention_header">CONVENTION</h2>
 					<p id= "convention">
-						The 28th annual Christian homeschool convention will be held April 27-29th, 2017. Learn more >>
+						The 29th annual Christian homeschool convention will be held April 26-28th, 2018. Learn more >>
 					</p>
 				</div>
 			</a>
@@ -98,7 +98,7 @@
 						document.getElementById("menu").style.backgroundColor = "#01172F";
 						document.getElementById("menu_icon").style.display = "none";
 				}
-	</script>
+</script>
 
 </body>
 </html>

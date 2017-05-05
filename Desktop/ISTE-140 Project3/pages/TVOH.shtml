@@ -24,7 +24,7 @@
     </header>
     
     <section id= "nav_location_bar">
-				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "#">The Voice of Hope</a>
+				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "#">The Voice of Hope</a></p>
 	</section>
 	
 	<!--#include virtual="./inc/sideNav.html" -->	

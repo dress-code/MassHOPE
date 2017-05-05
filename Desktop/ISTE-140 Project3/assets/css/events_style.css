@@ -61,6 +61,64 @@
     flex-wrap:wrap;
     justify-content:center;
     align-content:center;
+    padding-top:20%;
+    padding-bottom:20%;
+    height:100%;
+}
+
+#convention_header {
+    display:block;
+    text-align:center;
+    font-size:1.4em;
+    margin-top:60px;
+    margin-bottom:50px;
+    }
+
+#convention {
+    display:none;
+    font-size:.9em;
+    margin-top:25px;
+    margin-bottom:25px;
+    }
+    
+#ucs_header {
+    display:block; 
+    text-align:center;
+    font-size:1.4em;
+    margin-top:60px;
+    margin-bottom:50px;
+}
+
+#ucs {
+    display:none;
+    font-size:.9em;
+    margin-top:25px;
+    margin-bottom:25px;
+  }
+  
+#graduation_header {
+    display:block;
+    text-align:center;
+    font-size:1.4em;
+    margin-top:60px;
+    margin-bottom:50px;
+}
+
+#graduation {
+    display:none;
+    font-size:.9em;
+    margin-top:25px;
+    margin-bottom:25px;
+  }
+}
+
+@media screen and (max-width:1000px)
+{
+    #events {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:center;
     padding-top:25%;
     padding-bottom:25%;
     height:100%;

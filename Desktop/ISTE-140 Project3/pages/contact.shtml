@@ -6,7 +6,7 @@
     <link rel= "stylesheet" href= "../assets/css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<style>
-		h1 {
+		#contact_header {
 		font-size:2.5em;
 		padding:12.5px;
 		}	
@@ -91,14 +91,14 @@
 	</header>
 	
 	<section id= "nav_location_bar">
-				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "#">Contact</a>
+				<p>You are here: <a href= "../index.shtml">Home</a> > <a href= "#">Contact</a></p>
 	</section>
 	
 	<!--#include virtual="./inc/sideNav.html" -->
 	
 	<article>
 		
-		<h1>Contact Us</h1>
+		<h1 id= "contact_header">Contact Us</h1>
 		<section>
 		<div id= "contact_info">
 			<section class= "contact_block">
